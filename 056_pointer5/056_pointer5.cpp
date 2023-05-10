@@ -9,3 +9,6 @@ public:
 	void showNilaiPelajar(pelajar&);
 };
 
+class pelajar {
+private:
+	int nilai;
