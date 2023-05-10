@@ -8,6 +8,7 @@ public:
 };
 
 
-void mahasiswa::showNim() {
+void mahasiswa::showNim() {    //implementasi method di luar class
 	cout << "No Induk = " << nim << endl;
 }
+
