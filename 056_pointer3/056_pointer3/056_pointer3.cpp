@@ -6,3 +6,8 @@ class siswa;
 class orang {
 private:
 	string nama;
+public:
+	void setName(string pName);
+	friend class siswa;
+};
+
